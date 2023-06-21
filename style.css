@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+
+header {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blanchedalmond;
+  font-size: 15px;
+}
+
+.logo-container {
+  margin-right: 100px;
+}
+
+.logo-container img {
+  max-height: 65px;
+  vertical-align: center;
+}
